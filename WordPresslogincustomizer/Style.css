@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  transition: 0.5s;
 }
 
 .container {
@@ -93,7 +94,7 @@
   align-items: center;
   display: flex;
   margin-top: 15px;
-  width: 90%;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -145,4 +146,44 @@
 #spaceCreator {
   content: "";
   padding-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .container-set{
+     height: 70vh;
+     width: 600px;
+  }
+  .signIn button{
+    padding: 5px 5px;
+  }
+}
+
+@media screen and (max-width: 823px){
+    .container-set{
+       height: 70vh;
+       width: 700px;
+    }
+}
+
+@media screen and (max-width: 710px){
+  .right-hand{
+    background-color: #f1f1f134;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+  }
+
+  .left-hand{
+    position: absolute;
+    width: 90%;
+  }
+
+  .container-set{
+       height: 70vh;
+       width: 300px;
+    }
+
+    .input-field-Login{
+      background-color: #ffffff29;
+    }
 }
