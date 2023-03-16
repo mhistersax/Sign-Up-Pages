@@ -1,0 +1,148 @@
+/*  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+}
+
+.container-set {
+  overflow: hidden;
+  border-radius: 10px;
+  height: 70vh;
+  width: 800px;
+  display: flex;
+  -moz-box-shadow: -3px 0px 67px 4px rgba(46, 45, 48, 0.75);
+  -webkit-box-shadow: -3px 0px 67px 4px rgba(46, 45, 48, 0.75);
+  box-shadow: -3px 0px 67px 4px rgba(46, 45, 48, 0.75);
+}
+
+.left-hand {
+  justify-content: left;
+  background-image: url("/WordPresslogincustomizer/asset/wave.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 50%;
+}
+
+.right-hand {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f1f1;
+  height: 70vh;
+  width: 50%;
+}
+
+.input-field-Login {
+  margin-top: 140px;
+  background-color: #ffffff;
+  height: 35%;
+  width: 50%;
+  -moz-box-shadow: -30px 9px 107px -117px rgba(35, 35, 35, 0.75) inset;
+  -webkit-box-shadow: -30px 9px 107px -117px rgba(35, 35, 35, 0.75) inset;
+  box-shadow: -30px 9px 107px -117px rgba(35, 35, 35, 0.75) inset;
+}
+
+.input-field-Login input[type="text"] {
+  outline: none;
+  width: auto;
+}
+
+.input-container {
+  margin-right: 17px;
+  margin-left: 17px;
+  border-radius: 8px;
+}
+
+.labele4name {
+  margin-top: 15px;
+}
+
+.labele4name label {
+  font-family: monospace;
+  font-size: 10px;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+
+.label4password {
+  margin-top: 8px;
+}
+
+.label4password label {
+  font-family: monospace;
+  font-size: 10px;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+
+.input-field-Login .label4password input[type="password"] {
+  outline: none;
+  width: auto;
+}
+
+.actionPerformer {
+  align-items: center;
+  display: flex;
+  margin-top: 15px;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.remeberMe label {
+  position: absolute;
+  font-family: monospace;
+  font-size: 10px;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-left: 5px;
+}
+
+.signIn button {
+  padding: 5px 10px;
+  background-color: skyblue;
+  border-radius: 5px;
+  border: none;
+}
+
+.signIn button[type="button"] {
+  color: #ffffff;
+}
+
+.helpCenter {
+  position: absolute;
+  margin-top: 340px;
+}
+
+.helpCenter a:first-child {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+.helpCenter a:last-child {
+  position: relative;
+  margin-top: 10px;
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+#spaceCreator {
+  content: "";
+  padding-right: 5px;
+}

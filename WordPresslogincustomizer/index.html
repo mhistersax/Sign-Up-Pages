@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WordPress Login Customizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- General Container For the Sign Up -->
+      <div class="container-set">
+        <!-- Child contianer holding everything -->
+        <div class="left-hand"></div>
+        <!--The div holding the wave Img-->
+        <div class="right-hand">
+          <!--Div housing the input part-->
+          <div class="input-field-Login">
+            <div class="input-container">
+              <!--Container for Inputs-->
+              <!-- Username input Field -->
+              <div class="labele4name">
+                <label for="username" class="labele4name"
+                  >username or Email address</label
+                >
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  placeholder="username or Email"
+                />
+              </div>
+              <!-- Password Input field -->
+              <div class="label4password">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Password"
+                />
+              </div>
+              <!-- Remeber me and login Button -->
+              <div class="actionPerformer">
+                <div class="remeberMe">
+                  <input
+                    type="checkbox"
+                    name="Remeber"
+                    id=""
+                    title="Remeber Me"
+                  />
+                  <label for="Remeber">Remeber Me</label>
+                </div>
+                <div class="signIn">
+                  <button type="button">Log in</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Links that aids navigation -->
+          <div class="helpCenter">
+            <a href="#">Lost your password</a>
+            <a href="#">
+              &#8592; <span id="spaceCreator"></span>Back to Uicokies</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/WordPresslogincustomizer/Script.js"></script>
+  </body>
+</html>
